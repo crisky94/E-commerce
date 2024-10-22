@@ -2,7 +2,7 @@
 import asyncHandler from "../middlewares/asyncHandler";
 
 const createUser = asyncHandler(async (req, res) => {
-    res.send('hello')
+    res.send('hello');
 });
 
 export {createUser}
